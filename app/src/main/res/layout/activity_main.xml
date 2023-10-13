@@ -28,12 +28,21 @@
                 android:textColor="@color/white" />
         </Toolbar>
 
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/mdTest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/toolbar"
+            android:layout_marginTop="13dp"
+            android:hint="Test"
+            />
+
         <ImageView
             android:id="@+id/imageView2"
             android:layout_width="200dp"
             android:layout_height="200dp"
             android:layout_centerHorizontal="true"
-            android:layout_below="@id/toolbar"
+            android:layout_below="@id/mdTest"
             android:layout_marginTop="15dp"
             android:src="@mipmap/insat_logo_round" />
 

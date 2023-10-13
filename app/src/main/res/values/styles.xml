@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here -->
+
+        <!-- ActionBar styles -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryDark">@color/design_default_color_primary_dark</item>
+        <item name="colorAccent">@color/black</item>
+
+        <!-- Text and background colors -->
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/gray</item>
+        <item name="android:windowBackground">@color/white</item>
+
+        <!-- Other customizations -->
+     </style>
+
+
+    <!-- Custom text view style -->
+    <style name="MyTextViewStyle" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/purple_700</item>
+    </style>
+</resources>
